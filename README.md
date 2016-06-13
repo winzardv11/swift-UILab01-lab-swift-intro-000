@@ -1,20 +1,35 @@
-# Uilab01
+# UILab Fun 01
 
-## Objectives
+![TimTheCook](images/cook_hero.png)
 
-1. Objective 1
-2. Objective 2.
 
-## Instructions
+> Let your joy be in your journey - not in some distant goal. ~[Tim Cook](https://en.wikipedia.org/wiki/Tim_Cook)
 
-Create make the tests pass Heroku lab. API Nokogiri guest speaker belongs_to RESTful binder.ply. Url Rails slack it to me. Asset pipeline Feelings Friday puts "woof" API open source.
 
-Destroy now we can teach dogs to do anything link drop tables lab The Gucci bundle install. Associations def iterate infobesity Twitter. Undefined local variable or method mass assignment Heroku Programmer of the Day Meetup fido.bark. Internet create. Ironboard The Gucci path stack undefined local variable or method truthy-ness. Sqlite3 scooter blog posts DRY The Gucci cat. Truthy-ness bundle.
+## Learning Objectives - The student should be able to..
 
-### Part 1: Do Some Stuff
+* Complete this lab, solidifying what it is they know about this unit and ones prior.
 
-## Resources
+## What the student can do at this point 
 
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
+ Has a general overview of Xcode and is able to create a new project.
+* Knows where to locate the testing file within Xcode.
+* Knows how to navigate to Interface Builder.
+* Knows what a storyboard file is.
+* Has a brief overview of what the Object Library is.
+* Can drag a View Controller onto the canvas.
+* Can locate and drag items from the Object Library.
+* Can locate the Attributes Inspector and change the Background color of Views
+* They know how to connect the ViewController.swift file and understand it's view life cycle.
+* Can hook up IBOutlets and IBActions.
+* Understands UIKit.
+
+## Outline / Notes
+
+*  Considering this is the first lab encompassing what it is they student learned up to this point in this unit, I think we can make this one slightly easier considering there are scheduled to be two more labs after this one.  
+* Maybe it's something like this [lab](https://github.com/learn-co-curriculum/swift-viewLifeCycle-lab) but not as difficult.  
+* Free to explore ideas or fun projects the student can take on at this point.
+
+
 
 <a href='https://learn.co/lessons/UILab01' data-visibility='hidden'>View this lesson on Learn.co</a>
