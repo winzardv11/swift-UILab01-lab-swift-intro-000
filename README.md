@@ -12,7 +12,7 @@
 
 ## What the student can do at this point 
 
- Has a general overview of Xcode and is able to create a new project.
+* Has a general overview of Xcode and is able to create a new project.
 * Knows where to locate the testing file within Xcode.
 * Knows how to navigate to Interface Builder.
 * Knows what a storyboard file is.
