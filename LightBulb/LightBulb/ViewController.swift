@@ -8,18 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+enum Hue: Int {
+    case Red = 0, Yellow, Blue, Green
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    func toColor() -> UIColor {
+        switch self {
+        case .Red: return UIColor.redColor()
+        case .Yellow: return UIColor.yellowColor()
+        case .Blue: return UIColor.blueColor()
+        case .Green: return UIColor.greenColor()
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
+class ViewController: UIViewController {
+    @IBOutlet weak var lightBulb: UIView!
+
+    override func viewDidLoad() {
+        changeColor(to: .Red)
+    }
+
+    func changeColor(to hue: Hue) {
+        lightBulb.backgroundColor = hue.toColor()
+    }
+
+    @IBAction func colorSelected(sender: UISegmentedControl) {
+        let hue = Hue(rawValue: sender.selectedSegmentIndex)!
+        changeColor(to: hue)
+    }
+}
