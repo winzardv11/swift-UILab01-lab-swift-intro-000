@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B756B9E81D16723D0041C040 /* LightBulb.png in Resources */ = {isa = PBXBuildFile; fileRef = B756B9E71D16723D0041C040 /* LightBulb.png */; };
 		B765130B1D166F41004CC145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B765130A1D166F41004CC145 /* AppDelegate.swift */; };
 		B765130D1D166F41004CC145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B765130C1D166F41004CC145 /* ViewController.swift */; };
 		B76513101D166F41004CC145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B765130E1D166F41004CC145 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B756B9E71D16723D0041C040 /* LightBulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBulb.png; sourceTree = "<group>"; };
 		B76513071D166F41004CC145 /* LightBulb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightBulb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B765130A1D166F41004CC145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B765130C1D166F41004CC145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				B76513111D166F41004CC145 /* Assets.xcassets */,
 				B76513131D166F41004CC145 /* LaunchScreen.storyboard */,
 				B76513161D166F41004CC145 /* Info.plist */,
+				B756B9E71D16723D0041C040 /* LightBulb.png */,
 			);
 			path = LightBulb;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B76513151D166F41004CC145 /* LaunchScreen.storyboard in Resources */,
+				B756B9E81D16723D0041C040 /* LightBulb.png in Resources */,
 				B76513121D166F41004CC145 /* Assets.xcassets in Resources */,
 				B76513101D166F41004CC145 /* Main.storyboard in Resources */,
 			);
@@ -287,6 +291,7 @@
 				B765131B1D166F41004CC145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
