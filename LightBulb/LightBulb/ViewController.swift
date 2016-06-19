@@ -8,32 +8,39 @@
 
 import UIKit
 
-enum Hue: Int {
-    case Red = 0, Yellow, Blue, Green
-
-    func toColor() -> UIColor {
-        switch self {
-        case .Red: return UIColor.redColor()
-        case .Yellow: return UIColor.yellowColor()
-        case .Blue: return UIColor.blueColor()
-        case .Green: return UIColor.greenColor()
-        }
-    }
-}
-
 class ViewController: UIViewController {
     @IBOutlet weak var lightBulb: UIView!
 
     override func viewDidLoad() {
-        changeColor(to: .Red)
+        super.viewDidLoad()
+        // TODO: Change background color to red
     }
 
-    func changeColor(to hue: Hue) {
-        lightBulb.backgroundColor = hue.toColor()
+    func colorFromString(name: String) -> UIColor {
+        switch name.lowercaseString {
+        case "red": return UIColor.redColor()
+        case "yellow": return UIColor.yellowColor()
+        case "blue": return UIColor.blueColor()
+        case "green": return UIColor.greenColor()
+        default: assert(false, "Invalid value: \(name)")
+        }
+    }
+
+    func colorFromSegment(i: Int) -> UIColor {
+        switch i {
+        case 0: return UIColor.redColor()
+        case 1: return UIColor.yellowColor()
+        case 2: return UIColor.blueColor()
+        case 3: return UIColor.greenColor()
+        default: assert(false, "Invalid value: \(i)")
+        }
+    }
+
+    func changeColor(to color: UIColor) {
+        // TODO: Change background color to "color"
     }
 
     @IBAction func colorSelected(sender: UISegmentedControl) {
-        let hue = Hue(rawValue: sender.selectedSegmentIndex)!
-        changeColor(to: hue)
+        // TODO: Change background color when segmented control changes
     }
 }
