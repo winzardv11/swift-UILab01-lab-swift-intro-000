@@ -41,6 +41,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func colorSelected(sender: UISegmentedControl) {
+        print("Selected segment: \(sender.selectedSegmentIndex)")
         // TODO: Change background color when segmented control changes
     }
 }
