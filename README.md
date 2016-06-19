@@ -51,17 +51,9 @@ Open up `Main.storyboard`. You'll notice that a standard view controller has alr
 
 Now open up `ViewController.swift` (you can open it up in an Assistant Editor from Interface Builder if you want). Parts of this file have already been filled in for you, too. It already has an IB action named `colorSelected(_:)`, but that IB action is not hooked up to anything. It also has a `UIView` outlet called `lightBulb`, but that has not been hooked up to anything, either.
 
-The view controller also has two methods for turning a `String` and an `Int` into a `UIColor`. The first is `colorFromString(_:)`. You can call it with the name of a color in order to get that color back. For example, to get red, you could call:
+You have also been provided with a method for turning strings into colors. For example, you can call `"red".color` to get a red color. `"blue".color`, `"yellow".color`, and `"green".color` are also allowed. This should help you easily create `UIColor` objects and use them in the existing methods.
 
-```swift
-colorFromString("red")
-```
-
-And you'd get a red color back. There is also `colorFromSegment(_:)`, which allows you to pass in an integer and get a color back. For example, to get yellow, you could call:
-
-```swift
-colorFromSegment(1)
-```
+You can also call `color` on segmented control objects. For example, given a segmented control called `sender` (such as the one passed to `colorSelected(_:`), you can call `sender.color` to get the color associated with it.
 
 Finally, there are three method stubs that have `TODO` markers indicating code that _you_ have to write: `viewDidLoad()`, `changeColor(to:)`, and `colorSelected(_:)`.
 
