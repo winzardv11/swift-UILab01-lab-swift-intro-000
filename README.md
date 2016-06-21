@@ -67,7 +67,7 @@ If you complete the following steps, you should end up with a properly working a
 2. Add a segmented control underneath the lightbulb.
 	* By default, a segmented control only has 2 buttons. Yours needs to have 4. Do you know how you can change that? (If you guessed "in the Attributes Inspector", you'd be correct!)
 	* The individual parts of a segmented control also have default names. Try to figure out on your own how you can change those names. (Hint: Look for a section in the Attributes Inspector called **Segment**. It is a popup menu that should list all the parts of your segmented control. You'll want to change an attribute called **Title** for each segment part.)
-3. Hook up the segmented control to the `colorSelected(_:)` IB outlet in `ViewController.swift`.
+3. Hook up the segmented control to the `colorSelected(_:)` IB action in `ViewController.swift`.
 4. Modify the `colorSelected(_:)` method where shown. It should change the background color of the `lightBulb` view to the chosen color.
 	* Doing this might be a bit tricky. Notice that there is a `print` statement above the part of this method that you need to modify. That `print` statement is a hint as to how you can figure out which segment the user selected. Remember: You can get help using Xcode's documentation.
 	* The selected part of the segmented control will be returned as an `Int`. Remember: You have already been provided with a method that can turn an `Int` into a color!
