@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // TODO: Change background color to red
+        // TODO: Change background color of lightBulb view to red
     }
 
     func changeColor(to color: UIColor) {
