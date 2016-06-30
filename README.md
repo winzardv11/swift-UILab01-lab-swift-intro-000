@@ -2,7 +2,7 @@
 
 ![TimTheCook](http://i.imgur.com/jSa4ACP.png?1)
 
-> Let your joy be in your journey - not in some distant goal. ~[Tim Cook](https://en.wikipedia.org/wiki/Tim_Cook)
+> Let your joy be in your journey - not in some distant goal. -[Tim Cook](https://en.wikipedia.org/wiki/Tim_Cook)
 
 
 
