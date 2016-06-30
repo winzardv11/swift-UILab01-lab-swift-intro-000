@@ -1,4 +1,4 @@
-# UI Lab #1: Light Bulbs
+# Light Bulbs
 
 ![TimTheCook](http://i.imgur.com/jSa4ACP.png?1)
 
