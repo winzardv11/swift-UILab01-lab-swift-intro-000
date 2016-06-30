@@ -1,12 +1,10 @@
 # UI Lab #1: Light Bulbs
 
-![TimTheCook](images/cook_hero.png)
+![TimTheCook](http://i.imgur.com/jSa4ACP.png?1)
 
 > Let your joy be in your journey - not in some distant goal. ~[Tim Cook](https://en.wikipedia.org/wiki/Tim_Cook)
 
-## Learning Objectives - The student should be able to...
 
-* Complete this lab
 
 ## Light Bulbs
 
