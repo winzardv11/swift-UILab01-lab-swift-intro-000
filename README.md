@@ -4,11 +4,13 @@
 
 > Let your joy be in your journey - not in some distant goal. -[Tim Cook](https://en.wikipedia.org/wiki/Tim_Cook)
 
+## Overview 
 
+In this lab, you'll make an application where you can change the color of a light bulb. 
 
 ## Light Bulbs
 
-As you've been working through these lessons, a few light bulbs have no dealt turned on in your head as you've connected the dots of Swift programming. To celebrate, why not make an application where you can turn a light bulb a different color?
+As you've been working through these lessons, a few light bulbs have no doubt turned on in your head as you've connected the dots of Swift programming. To celebrate, why not make an application where you can turn a light bulb a different color?
 
 Specifically, your task is to create an app with this UI:
 
