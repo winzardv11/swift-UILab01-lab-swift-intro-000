@@ -65,3 +65,5 @@ If you complete the following steps, you should end up with a properly working a
 Have at it! This is definitely one of the most challenging labs you've had so far, but you've been provided a lot of helpful pieces to get you started, and covered all the material you need to know in previous lessons, so you should do great with it!
 
 <a href='https://learn.co/lessons/UILab01' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-UILab01-lab'>UI Lab: Light Bulbs</a> on Learn.co and start learning to code for free.</p>
