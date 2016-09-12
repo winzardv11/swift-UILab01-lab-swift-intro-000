@@ -54,13 +54,11 @@ If you complete the following steps, you should end up with a properly working a
 	* By default, a segmented control only has 2 buttons. Yours needs to have 4. Do you know how you can change that? (If you guessed "in the Attributes Inspector", you'd be correct!)
 	* The individual parts of a segmented control also have default names. Try to figure out on your own how you can change those names. (Hint: Look for a section in the Attributes Inspector called **Segment**. It is a popup menu that should list all the parts of your segmented control. You'll want to change an attribute called **Title** for each segment part.)
 3. Hook up the segmented control to the `colorSelected(_:)` IB action in `ViewController.swift`.
-4. Modify the `colorSelected(_:)` method where shown. It should change the background color of the `lightBulb` view to the chosen color.
-	* Doing this might be a bit tricky. Notice that there is a `print` statement above the part of this method that you need to modify. That `print` statement is a hint as to how you can figure out which segment the user selected. Remember: You can get help using Xcode's documentation.
-	* The selected part of the segmented control will be returned as an `Int`. Remember: You have already been provided with a method that can turn an `Int` into a color!
-5. Modify the `changeColor(to:)` method to change the background color of the `lightBulb` view.
+4. Implement the `changeColor(to:)` method to change the background color of the `lightBulb` view to the color which is passed along as an argument to this method.
+5. Implement the `colorSelected(_:)` method. It should change the background color of the `lightBulb` view to the chosen color by calling on the `changeColor(to:)` method, passing it the selected color.
+	* Doing this might be a bit tricky. Notice that there is a `print` statement above the part of this method that you need to modify. That `print` statement is a hint as to how you can figure out which segment the user selected. Remember: You can get help using Xcode's documentation. Run your code code selecting the various options in the segmented control to see what's printing to console.
 6. Finally, modify `viewDidLoad()` to set the initial color of the light bulb to red.
-	* Remember: You have two methods to help you. One is `colorFromString(_:)`, which can take a string like "red" or "blue" and return a color.
-	* You also have your trusty `changeColor(to:)` method, which can change the light bulb's color to any color you want.
+
 
 Have at it! This is definitely one of the most challenging labs you've had so far, but you've been provided a lot of helpful pieces to get you started, and covered all the material you need to know in previous lessons, so you should do great with it!
 
