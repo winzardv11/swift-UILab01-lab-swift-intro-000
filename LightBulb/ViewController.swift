@@ -13,22 +13,37 @@ class ViewController: UIViewController {
     @IBOutlet weak var lightBulb: UIView!
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
-        // TODO: Change background color of lightBulb view to red
+        lightBulb.backgroundColor = "red".color
+        // this can also be done like this:
+        // lightBulb.backgroundColor = UIColor.redColor() (which is what "red".color is returning, same thing.
         
     }
 
     func changeColor(to color: UIColor) {
         
-        // TODO: Change background color to "color"
+        lightBulb.backgroundColor = color
         
     }
 
     @IBAction func colorSelected(sender: UISegmentedControl) {
         
-        print("The selected index is \(sender.selectedSegmentIndex)")
+        switch sender.selectedSegmentIndex {
+        case 0:
+            changeColor(to: "red".color)
+        case 1:
+            changeColor(to: "blue".color)
+        case 2:
+            changeColor(to: "yellow".color)
+        case 3:
+            changeColor(to: "green".color)
+        default:
+            print("No such index.")
+            
+        }
         
-        // TODO: Change background color when segmented control changes
     }
+    
 }
