@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D139A561D8DE13400F92686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D139A551D8DE13400F92686 /* ViewController.swift */; };
 		B756B9E81D16723D0041C040 /* LightBulb.png in Resources */ = {isa = PBXBuildFile; fileRef = B756B9E71D16723D0041C040 /* LightBulb.png */; };
 		B765130B1D166F41004CC145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B765130A1D166F41004CC145 /* AppDelegate.swift */; };
-		B765130D1D166F41004CC145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B765130C1D166F41004CC145 /* ViewController.swift */; };
 		B76513101D166F41004CC145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B765130E1D166F41004CC145 /* Main.storyboard */; };
 		B76513121D166F41004CC145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76513111D166F41004CC145 /* Assets.xcassets */; };
 		B76513151D166F41004CC145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76513131D166F41004CC145 /* LaunchScreen.storyboard */; };
-		B7AAB9F91D17502A00826CCC /* ColorExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AAB9F81D17502A00826CCC /* ColorExtras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D139A551D8DE13400F92686 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B756B9E71D16723D0041C040 /* LightBulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBulb.png; sourceTree = "<group>"; };
 		B76513071D166F41004CC145 /* LightBulb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightBulb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B765130A1D166F41004CC145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B765130C1D166F41004CC145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B765130F1D166F41004CC145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B76513111D166F41004CC145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B76513141D166F41004CC145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B76513161D166F41004CC145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7AAB9F81D17502A00826CCC /* ColorExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtras.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				B765130A1D166F41004CC145 /* AppDelegate.swift */,
-				B765130C1D166F41004CC145 /* ViewController.swift */,
+				7D139A551D8DE13400F92686 /* ViewController.swift */,
 				B765130E1D166F41004CC145 /* Main.storyboard */,
 				B76513111D166F41004CC145 /* Assets.xcassets */,
 				B76513131D166F41004CC145 /* LaunchScreen.storyboard */,
 				B76513161D166F41004CC145 /* Info.plist */,
 				B756B9E71D16723D0041C040 /* LightBulb.png */,
-				B7AAB9F81D17502A00826CCC /* ColorExtras.swift */,
 			);
 			path = LightBulb;
 			sourceTree = "<group>";
@@ -103,6 +100,7 @@
 					B76513061D166F41004CC145 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = JL54VFJL37;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -143,8 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B765130D1D166F41004CC145 /* ViewController.swift in Sources */,
-				B7AAB9F91D17502A00826CCC /* ColorExtras.swift in Sources */,
+				7D139A561D8DE13400F92686 /* ViewController.swift in Sources */,
 				B765130B1D166F41004CC145 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +259,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.LightBulb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -273,6 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.LightBulb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
